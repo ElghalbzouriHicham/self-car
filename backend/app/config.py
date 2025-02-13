@@ -19,7 +19,7 @@ class Config:
     SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{USERNAME}:{PASSWORD}@{HOST}/{DATABASE}'
 
 
-    # Configurations d'email
+
     SMTP_SERVER = 'smtp.gmail.com'
     SMTP_PORT = 587
     EMAIL_SENDER = os.getenv('EMAIL_SENDER')
